@@ -1,0 +1,30 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 4rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1rem;
+    color: var(--text-white);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.button-primary {
+    background-color: var(--primary);
+    border: 1.5px solid #262626;
+}
+
+.button-transparent {
+    background-color: inherit;
+    border: 1.5px white;
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        width: 80vw;
+    }
+}

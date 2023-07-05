@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+}
+
+.home-search-bar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.home-search-bar > * {
+    flex: 1;
+}
+
+.home-search-bar .input {
+    text-transform: uppercase;
+    max-width: none;
+}
+
+.home-search-bar .custom-select {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .home-search-bar .input {
+        height: auto !important;
+        width: auto;
+    }
+
+    .home-search-bar {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .home-search-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

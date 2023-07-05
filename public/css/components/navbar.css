@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    width: 100%;
+    background-color: var(--navbar-footer-bg);
+}
+
+.nav {
+    height: var(--navbar-height);
+    color: var(--text-white);
+    font-size: 1.4rem;
+}
+
+.nav a:link, .nav a:visited {
+    color: inherit;
+}
+
+.nav > ul {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    padding: 0;
+    gap: var(--m-1);
+    justify-content: space-between;
+}
+
+.nav > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.nav > ul > li, .header a:active, .header a:visited {
+    color: var(--white-text);
+}
+
+.nav > ul > li:hover {
+    opacity: 0.7;
+}
+
+.navbar-brand-logo{
+    height: 2rem;
+    padding: 0 0.2rem;
+    width: auto;
+    filter: invert(0.95);
+}
+
+.navbar-logo-text {
+    color: var(--primary)
+}

@@ -1,0 +1,48 @@
+:root {
+    --primary: 	#00a3cc;
+    --primary-dark: #e6faff;
+    --primary-light: #85d6eb;
+    --secondary: #4ca2b8;
+    --primary-gradient: linear-gradient(180deg, var(--primary), var(--primary-dark));
+
+    --black: #000000;
+    --white: #FFFFFF;
+
+    --text-white: #E7E7E7;
+    --text-grey: #686464;
+    --text-black: var(--black);
+
+    --success: #0f830d;
+    --error: #CF1313;
+
+    --grey-100: #E8E8E8;
+    --grey-200: #D6D6D6;
+    --grey-300: #BEBEBE;
+    --grey-400: #A4A4A4;
+    --grey-500: #888888;
+    --grey-600: #797979;
+    --grey-700: #5A5A5A;
+    --grey-800: #3C3C3C;
+    --grey-900: #262626;
+    --grey-1000: #151515;
+
+    --main-bg: var(--grey-900);
+    --navbar-footer-bg: #262626;
+    --card-bg: var(--grey-100);
+
+    --default-transition: 0.3s ease;
+
+    --navbar-height: 4rem;
+    --content-max-width: 1200px;
+
+    --z-sidebar-content: 5;
+    --z-fixed: 10;
+    --z-modal: 100;
+
+    --m-2-5: 2.5rem;
+    --m-2: 2rem;
+    --m-1-5: 1.5rem;
+    --m-1: 1rem;
+    --m-0-75: 0.75rem;
+    --m-0-5: 0.5rem;
+}
